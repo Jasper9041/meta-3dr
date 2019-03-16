@@ -38,6 +38,7 @@ IMAGE_INSTALL += " \
     python-monotonic \
     cgroup-lite \
     docker \
+    kubernetes-cni \
     openssh \
     iptables \
     iw \
