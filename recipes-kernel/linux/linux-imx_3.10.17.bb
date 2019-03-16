@@ -8,7 +8,7 @@ DEPENDS += "lzop-native bc-native"
 COMPATIBLE_MACHINE = "(mx6)"
 
 SRC_URI = "git://github.com/jasper9041/imx6-linux/"
-SRCREV = "cf3187dfed8be45a6a4c7be816e69cc65cdccac7"
+SRCREV = "41f2948c195469f0c59f05d7bc67ad4f42c1af01"
 
 
 #SRCREV = "0aa0b6cc1ee61c2fbb3e27be896e18f12c967188"
@@ -26,7 +26,6 @@ SRC_URI += "\
 	file://aufs_type.h \
 	file://aufs \
 	file://0001-dts-changes-to-add-uart5.patch \
-	file://0004-uart-no-dma.patch \
         file://overlayfs.v18-3.10-rc7.patch \
 "
 
