@@ -8,7 +8,7 @@ DEPENDS += "lzop-native bc-native"
 COMPATIBLE_MACHINE = "(mx6)"
 
 SRC_URI = "git://github.com/jasper9041/imx6-linux/"
-SRCREV = "41f2948c195469f0c59f05d7bc67ad4f42c1af01"
+SRCREV = "5325bfd41693ca56757d1904b41ebdca968c717a"
 
 
 #SRCREV = "0aa0b6cc1ee61c2fbb3e27be896e18f12c967188"
