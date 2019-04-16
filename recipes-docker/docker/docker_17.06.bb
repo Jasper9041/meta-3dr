@@ -22,7 +22,8 @@ do_install() {
 	install -d ${D}${bindir}
 	install -m 0755 ${WORKDIR}/docker ${D}${bindir}/docker
 	install -m 0755 ${WORKDIR}/docker-containerd ${D}${bindir}/docker-containerd
-	install -m 0755 ${WORKDIR}/docker-containerd-shim ${D}${bindir}/docker-containerd-ctr
+	install -m 0755 ${WORKDIR}/docker-containerd-ctr ${D}${bindir}/docker-containerd-ctr
+	install -m 0755 ${WORKDIR}/docker-containerd-shim ${D}${bindir}/docker-containerd-shim
 	install -m 0755 ${WORKDIR}/docker-init ${D}${bindir}/docker-init
 	install -m 0755 ${WORKDIR}/docker-proxy ${D}${bindir}/docker-proxy
 	install -m 0755 ${WORKDIR}/docker-runc ${D}${bindir}/docker-runc
