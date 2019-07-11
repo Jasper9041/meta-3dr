@@ -46,7 +46,6 @@ IMAGE_INSTALL += " \
     sololink-python \
     cgroup-lite \
     docker \
-    kubernetes-cni \
     rpm \
     util-linux \
     artoo-firmware \
