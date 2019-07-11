@@ -32,8 +32,6 @@ IMAGE_INSTALL += " \
     python-subprocess \
     python-datetime \
     python-json \
-    python-pip \
-    python-numpy \
     python-posix-ipc \
     python-monotonic \
     cgroup-lite \
@@ -62,7 +60,8 @@ IMAGE_INSTALL += " \
 # removed to save space:
 # vim
 # openssh-sftp-server
-
+# python-pip
+# python-numpy
 
 update_config_files() {
     # update /etc/network/interfaces
