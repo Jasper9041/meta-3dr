@@ -56,12 +56,14 @@ IMAGE_INSTALL += " \
     e2fsprogs-e2fsck \
     dosfstools \
     nano \
-    openssh-sftp-server \
     persist-logs \
     rsync \
     compat-wireless-all \
 "
-# removed vim
+# removed to save space:
+# vim
+# openssh-sftp-server
+
 
 update_config_files() {
     # update /etc/network/interfaces

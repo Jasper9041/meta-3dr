@@ -53,7 +53,6 @@ IMAGE_INSTALL += " \
     e2fsprogs-e2fsck \
     dosfstools \
     nano \
-    openssh-sftp-server \
     3dr-splash \
     persist-logs \
     rsync \
@@ -62,7 +61,7 @@ IMAGE_INSTALL += " \
 "
 # removed to save space:
 #   vim
-
+#   openssh-sftp-server 
 
 update_config_files() {
     # update /etc/network/interfaces
