@@ -78,7 +78,7 @@ update_config_files() {
     ln -s ../init.d/pixhawk ${IMAGE_ROOTFS}/etc/rcS.d/S60pixhawk
     ln -s ../init.d/updateGimbal.sh ${IMAGE_ROOTFS}/etc/rcS.d/S62updateGimbal.sh
     # Change hostname so solo and controller are different
-    echo "3dr_solo" > ${IMAGE_ROOTFS}/etc/hostname
+    echo "3dr-solo" > ${IMAGE_ROOTFS}/etc/hostname
     #Filesystem available over USB OTG port
     echo "g_acm_ms file=/dev/mmcblk0p4" >> ${IMAGE_ROOTFS}/etc/modules
     # Mount logging partition

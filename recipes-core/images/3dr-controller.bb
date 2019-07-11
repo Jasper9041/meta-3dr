@@ -76,7 +76,7 @@ update_config_files() {
     mv ${IMAGE_ROOTFS}/etc/hostapd.conf ${IMAGE_ROOTFS}/etc/hostapd.orig
     mv ${IMAGE_ROOTFS}/etc/wpa_supplicant.conf ${IMAGE_ROOTFS}/etc/wpa_supplicant.orig
     # Change hostname so solo and controller are different
-    echo "3dr_controller" > ${IMAGE_ROOTFS}/etc/hostname
+    echo "3dr-controller" > ${IMAGE_ROOTFS}/etc/hostname
     #Filesystem available over USB OTG port
     echo "g_acm_ms file=/dev/mmcblk0p4" >> ${IMAGE_ROOTFS}/etc/modules
     #Clear out the leases file on boot
